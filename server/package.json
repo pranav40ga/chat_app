@@ -1,0 +1,14 @@
+{
+  "name": "chat-app-server",
+  "version": "1.0.0",
+  "description": "A real-time chat application backend with a Gemini bot.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "node-fetch": "^3.3.2"
+  }
+}
